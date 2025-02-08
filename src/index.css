@@ -27,3 +27,11 @@
 .search-button-transition {
     transition: border .28s cubic-bezier(.4,0,.2,1), box-shadow .28s cubic-bezier(.4,0,.2,1);
 }
+
+.dropdown-to-shadow {
+    box-shadow: 0 1px 3px 0 rgba(60, 64, 67, .3), 0 4px 8px 3px rgba(60, 64, 67, .15);
+}
+
+.dropdown-to-position {
+    left: calc(50% - 2px);
+}

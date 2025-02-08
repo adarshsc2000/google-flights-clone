@@ -1,11 +1,12 @@
-const SearchButton = () => {
+const SearchButton = ({ onClick }) => {
+
     return (
         <div className="w-full absolute left-0 text-center -bottom-6">
             <div className="border-1 border-transparent rounded-3xl inline-block mb-1.5">
                 <button className="custom-search-shadow pr-4 pl-3 py-0 border-0 rounded-3xl h-10 m-0 relative
                 text-sm tracking-[0.01] font-medium custom-bg-color-search-button search-button-transition
                 inline-flex items-center justify-center min-w-16 align-middle overflow-visible hover:cursor-pointer
-                "
+                " onClick={onClick}
                 aria-label="Search for flights">
                     <div></div>
                     <span className="w-6 h-6 text-lg mr-2 inline-block relative align-top text-white font-medium">
